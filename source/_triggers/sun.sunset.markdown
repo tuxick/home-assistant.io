@@ -35,8 +35,8 @@ Offset type:
   description: |
     Whether the offset applies before or after sunset:
 
-    - **Before**: fires the offset amount before sunset. This is the default.
-    - **After**: fires the offset amount after sunset.
+    - **Before**: fires the offset amount before sunset (the period between midnight and sunset). This is the default.
+    - **After**: fires the offset amount after sunset (the period between sunset and midnight).
 {% endoptions_ui %}
 
 {% include triggers/yaml_header.md %}
